@@ -387,6 +387,16 @@ header {
     margin-bottom: 0.5rem;
 }
 
+.edu-school a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.edu-school a:hover {
+    text-decoration: underline;
+}
+
 .edu-grade {
     color: var(--secondary-color);
     font-weight: 600;
